@@ -1,0 +1,51 @@
+.experience-section{
+    width: 95%;
+    height: auto;
+    background-color: #4A148C;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+}
+
+section.experience-section div.title {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(129, 115, 238);
+}
+
+section.experience-section div.title h3{
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+section.experience-section .exp-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* @media screen and (max-width:760px) {
+    .right-image {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .header .content .main {
+        flex-direction: column;
+    }
+
+    .right-image,
+    .left-text {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+    }
+
+    .right-image {
+        height: 90vh;
+    }
+
+} */
