@@ -1,35 +1,36 @@
 .project-section {
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
-    background-color: #F3E4F5;
-    padding: 15px 20px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #f3e4f5;
+  padding: 15px 20px;
 }
 
 .project-section .section-header {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.project-section .section-header h3{
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 15px;
+.project-section .section-header h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .project-section .section-header p {
-    font-weight: 100;
-    color: #818081;
-    font-size: 1.5rem;
+  font-weight: 100;
+  color: #818081;
+  font-size: 1.5rem;
 }
 
 .project-section .section-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 600px) {
-    .project-section .section-content {
-        flex-direction: column;
-    }
+  .project-section .section-content {
+    flex-direction: column;
+  }
 }

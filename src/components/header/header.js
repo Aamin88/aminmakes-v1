@@ -36,12 +36,12 @@ const techStack = stack.map((skill) => (
 const socials = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/amin-alhassan-042150161/",
+    url: "https://www.linkedin.com/in/aminalhassan01/",
     icon: BsLinkedin,
   },
   {
     name: "Github",
-    url: "https://github.com/Aamin887",
+    url: "https://github.com/Aamin88",
     icon: BsTwitter,
   },
   {
