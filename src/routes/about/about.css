@@ -1,0 +1,48 @@
+.about {
+  padding: 4em 2em;
+  background-color: whitesmoke;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-container-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.about-profile-img {
+  width: 10em;
+  height: 10em;
+  border: 2px solid rebeccapurple;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1em;
+  background-color: rgb(198, 218, 195);
+}
+
+.about-container-subtitle {
+  font-size: 1.2rem;
+  max-width: 650px;
+  margin: 30px auto;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.tech-stack {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2em;
+  border: 1px solid rebeccapurple;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 0.5em;
+}

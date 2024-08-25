@@ -42,10 +42,11 @@ nav.nav-container {
 .nav-links li {
   text-align: center;
   width: 120px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 5px;
+  word-break: normal;
 }
 
 .nav-links li:hover {

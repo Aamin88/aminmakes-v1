@@ -1,4 +1,4 @@
-import "../../assets/styles/project.css";
+import "./project.css";
 import Links from "../../shared/lnks";
 
 import { FaGithub } from "react-icons/fa";

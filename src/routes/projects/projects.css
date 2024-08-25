@@ -1,0 +1,40 @@
+.project-section {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #f3e4f5;
+  padding: 15px 20px;
+}
+
+.project-section .section-header {
+  margin-bottom: 40px;
+}
+
+.project-section .section-header h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.project-section .section-header p {
+  font-weight: 100;
+  color: #818081;
+  font-size: 1.5rem;
+}
+
+.project-section .section-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #363436;
+}
+
+@media screen and (min-width: 600px) {
+  .project-section .section-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 980px) {
+  .project-section .section-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

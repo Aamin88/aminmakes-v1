@@ -1,4 +1,4 @@
-import "../../assets/styles/footer.css";
+import "./footer.css";
 
 import Links from "../../shared/lnks";
 
@@ -21,7 +21,8 @@ const Footer = () => {
           />
           <Links
             link={"https://twitter.com/AminForkah"}
-            icon={<BsTwitter className="links" />}
+            icon={<BsTwitter />}
+            className="links"
           />
         </div>
         <div>Copyright © {new Date().getFullYear()}</div>

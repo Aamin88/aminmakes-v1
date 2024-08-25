@@ -1,6 +1,6 @@
-import "../../assets/styles/experienceCard.css";
+import "./experienceCard.css";
 
-const Experience = ({ title, subtitle, duration, link, type }) => {
+const experienceCard = ({ title, subtitle, duration, link, type }) => {
   return (
     <article className="experience-card">
       <div className="content">
@@ -18,4 +18,4 @@ const Experience = ({ title, subtitle, duration, link, type }) => {
   );
 };
 
-export default Experience;
+export default experienceCard;

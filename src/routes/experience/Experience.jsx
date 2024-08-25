@@ -1,6 +1,6 @@
-import "../routes/experience/section.css";
+import "./section.css";
 
-const ExperienceSection = ({ title, content }) => {
+const Experience = ({ title, content }) => {
   return (
     <section className="experience-section">
       <div className="title">
@@ -11,4 +11,4 @@ const ExperienceSection = ({ title, content }) => {
   );
 };
 
-export default ExperienceSection;
+export default Experience;

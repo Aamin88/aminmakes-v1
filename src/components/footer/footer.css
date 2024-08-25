@@ -1,0 +1,27 @@
+footer.footer {
+  background-color: black;
+  color: whitesmoke;
+  width: 100%;
+}
+
+footer.footer .content {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  flex-direction: column;
+  display: flex;
+  padding: 0.5em;
+}
+
+footer.footer .content .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials .links {
+  background-color: transparent;
+  font-size: 1rem;
+  border: 1px solid rebeccapurple;
+}

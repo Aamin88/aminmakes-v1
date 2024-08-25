@@ -1,4 +1,4 @@
-import "../../assets/styles/nav.css";
+import "./nav.css";
 import Button from "../../shared/button";
 
 const Navbar = () => {
@@ -11,20 +11,20 @@ const Navbar = () => {
           <span className="logo-badge"></span>
         </div>
         {/* navigation items */}
-        {/* <ul className="nav-links">
+        <ul className="nav-links">
           <li>
             <a href="#header">Home</a>
           </li>
           <li>
-            <a href="#exprience">Projects</a>
+            <a href="#about">About me</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
           </li>
-        </ul> */}
+        </ul>
 
         {/* call to action button */}
         <div className="contact-button">
