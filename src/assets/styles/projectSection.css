@@ -23,14 +23,18 @@
 }
 
 .project-section .section-content {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #363436;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .project-section .section-content {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 980px) {
+  .project-section .section-content {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -1,8 +1,10 @@
 import "../../assets/styles/project.css";
 import Links from "../../shared/lnks";
-import { BsArrow90DegRight } from "react-icons/bs";
 
-const ProjectCard = ({ title, subtitle, url, link }) => {
+import { FaGithub } from "react-icons/fa";
+import { CiLink } from "react-icons/ci";
+
+const ProjectCard = ({ title, subtitle, url, link, gitLink }) => {
   return (
     <article className="projectCard">
       <div className="content">
@@ -14,12 +16,12 @@ const ProjectCard = ({ title, subtitle, url, link }) => {
         <Links
           name={"Preview"}
           link={link}
-          arrow={<BsArrow90DegRight className="arrow" />}
+          arrow={<CiLink className="arrow" />}
         />
         <Links
           name={"Source code"}
-          link={link}
-          arrow={<BsArrow90DegRight className="arrow" />}
+          link={gitLink}
+          arrow={<FaGithub className="arrow" />}
         />
       </div>
     </article>

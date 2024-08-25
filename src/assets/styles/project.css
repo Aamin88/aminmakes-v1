@@ -1,5 +1,5 @@
 .projectCard {
-  width: 45%;
+  /* width: 45%; */
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px;
   height: auto;
@@ -34,8 +34,8 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .projectCard {
     width: 100%;
   }
-}
+} */

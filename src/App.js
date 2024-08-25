@@ -20,12 +20,12 @@ const experiences = (
       title={"Affordable Renewable Energy LTD"}
       subtitle={"Designer and Developer"}
       duration={"Jan. 2023 - ongoing"}
-      type={"Frerlance"}
+      type={"Freelance"}
       link={"https://renewed-solar.vercel.app/"}
     />
     <Experience
       title={"Bootcamp HyperionDev"}
-      subtitle={"Intensive three month of coding"}
+      subtitle={"Three month intensive coding bootcamp"}
       duration={"Dec. 2022 - Mar. 2023"}
       type={"Full-time"}
       link={"https://www.hyperiondev.com/portfolio/113792/"}
@@ -38,28 +38,31 @@ const projects = (
     <ProjectCard
       title={"Bookstrackr"}
       subtitle={
-        "A freelance project to design and built a react website for a newly formed solar installation company"
+        "This project was developed to foster reading among peers. It provides a form where other users can easily add books recommendations for other user to discover. The project also featured AI generate summary of any books added as well as the key takeway using GEMINI AI. "
       }
       url={booktrackr}
+      gitLink={"https://github.com/Aamin88/booktrackr"}
       link={"https://bookstrackr.vercel.app/"}
     />
 
     <ProjectCard
       title={"Periodic"}
       subtitle={
-        "A freelance project to design and built a react website for a newly formed solar installation company"
+        "This project was developed to help student and chemistry enthusiats who want to learn the chemical elemnts. The project features the pronunciation of each chemical element which can be heart by click on the element."
       }
       url={periodic}
       link={"https://periodic-table-murex-three.vercel.app/"}
+      gitLink={"https://github.com/Aamin88/periodic-table"}
     />
 
     <ProjectCard
       title={"Lit ledger"}
       subtitle={
-        "A personal project a community of readers to add books they have read and what they think about the book."
+        "This project was developed to help me keep records of books on my reading list. Developed using html, css and javascript, leveraging the browser's localstorage to persist the record whilst allowing CRUD functionality."
       }
       url={litledger}
       link={"https://lit-ledger.vercel.app/"}
+      gitLink={"https://github.com/Aamin88/lit-ledger"}
     />
   </>
 );
