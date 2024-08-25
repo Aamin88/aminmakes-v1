@@ -1,7 +1,5 @@
 import "./footer.css";
-
 import Links from "../../shared/lnks";
-
 import { BsLinkedin, BsTwitter, BsGithub } from "react-icons/bs";
 
 const Footer = () => {
