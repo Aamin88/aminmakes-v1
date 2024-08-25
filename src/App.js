@@ -10,8 +10,9 @@ import ProjectCard from "./components/projects/projectCard";
 import Footer from "./components/footer/footer";
 
 // image
-import renewed from "./assets/images/renewed.png";
-import hulu from "./assets/images/image1 3.png";
+import booktrackr from "./assets/images/bookstrackr.jpeg";
+import periodic from "./assets/images/periodic.jpeg";
+import litledger from "./assets/images/litledger.jpeg";
 
 const experiences = (
   <>
@@ -35,21 +36,30 @@ const experiences = (
 const projects = (
   <>
     <ProjectCard
-      title={"Affordable Renewable Energy"}
+      title={"Bookstrackr"}
       subtitle={
         "A freelance project to design and built a react website for a newly formed solar installation company"
       }
-      url={renewed}
-      link={"https://renewed-solar.vercel.app/"}
+      url={booktrackr}
+      link={"https://bookstrackr.vercel.app/"}
     />
 
     <ProjectCard
-      title={"Booktrackr"}
+      title={"Periodic"}
+      subtitle={
+        "A freelance project to design and built a react website for a newly formed solar installation company"
+      }
+      url={periodic}
+      link={"https://periodic-table-murex-three.vercel.app/"}
+    />
+
+    <ProjectCard
+      title={"Lit ledger"}
       subtitle={
         "A personal project a community of readers to add books they have read and what they think about the book."
       }
-      url={hulu}
-      link={"https://booktrackr.vercel.app/"}
+      url={litledger}
+      link={"https://lit-ledger.vercel.app/"}
     />
   </>
 );

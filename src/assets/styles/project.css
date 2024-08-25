@@ -1,42 +1,41 @@
 .projectCard {
-    width: 45%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px 10px;
-    height: auto;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 0 2px white;
-    margin: 10px;
+  width: 45%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 2px white;
+  margin: 10px;
 }
 
 .projectCard .header {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
-.projectCard .content{
-    padding: 0;
-    background-color: red;
+.projectCard .content {
+  padding: 0;
+  background-color: red;
 }
 
-.projectCard .content img{
-    display: block;
+.projectCard .content img {
+  display: block;
 }
 
-.projectCard .header h3{
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 10px;
+.projectCard .header h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .projectCard .header p {
-    font-weight: 100;
-    margin-bottom: 10px;
+  font-weight: 100;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) {
-
-    .projectCard {
-        width: 100%;
-    }
+  .projectCard {
+    width: 100%;
+  }
 }
