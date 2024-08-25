@@ -1,8 +1,6 @@
 import booktrackr from "../assets/images/bookstrackr.jpeg";
-
 import periodic from "../assets/images/periodic.jpeg";
 import litledger from "../assets/images/litledger.jpeg";
-import ProjectCard from "../components/projects/ProjectCard";
 
 const projects = [
   {
@@ -25,7 +23,7 @@ const projects = [
     title: "Lit ledger",
     description:
       "This project was developed to help me keep records of books on my reading list. Developed using html, css and javascript, leveraging the browser's localstorage to persist the record whilst allowing CRUD functionality.",
-    img: booktrackr,
+    img: litledger,
     gitLink: "https://github.com/Aamin88/lit-ledger",
     link: "https://lit-ledger.vercel.app/",
   },
